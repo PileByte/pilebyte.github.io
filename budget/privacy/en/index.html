@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy｜記個帳</title>
+<meta name="description" content="記個帳 Privacy Policy">
+<link rel="canonical" href="https://pilebyte.github.io/budget/privacy/en/">
+<link rel="alternate" hreflang="zh-Hant" href="https://pilebyte.github.io/budget/privacy/">
+<link rel="alternate" hreflang="en" href="https://pilebyte.github.io/budget/privacy/en/">
+<link rel="alternate" hreflang="ja" href="https://pilebyte.github.io/budget/privacy/ja/">
+<link rel="alternate" hreflang="x-default" href="https://pilebyte.github.io/budget/privacy/">
+<link rel="stylesheet" href="../../../assets/site.css">
+</head>
+<body>
+<header class="page-header">
+<nav class="lang-switch" aria-label="Language">
+<a href="https://pilebyte.github.io/budget/privacy/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<span aria-current="page">English</span>
+<a href="https://pilebyte.github.io/budget/privacy/ja/" hreflang="ja" lang="ja">日本語</a>
+</nav>
+<p class="app-name">記個帳</p>
+<h1>Privacy Policy</h1>
+</header>
+<main class="card">
+<p>This policy explains how the &quot;記個帳&quot; app handles your data. The developer is Pilebyte Studio.</p>
+<h2>Where your data is stored</h2>
+<p>Every transaction, bank account, stock, crypto holding, and loan you record is stored only on your own device (the app's local storage). None of it is uploaded to the developer's servers. The developer has no access to, and never receives, any of your transaction or financial data.</p>
+<p>That said, depending on your phone's backup settings, Android may back up this app's data to your own Google account. This is handled entirely by the Android system and your Google account, and the developer cannot access that backup. The timing of system backups is decided by your phone (typically while charging, connected to Wi-Fi, and idle) — it is not instant. When you get a new phone or reinstall the app, this backup may be restored automatically, though this is not guaranteed, so it's still a good idea to regularly back up using the &quot;Export backup file&quot; feature. You can turn off Google backup in your phone's system settings.</p>
+<p>If you use an iPhone and have iCloud backup enabled for your whole device, iOS may likewise include this app's data in that backup, depending on your iOS settings. This is handled by your phone's operating system and your Apple account, and the developer cannot access it either.</p>
+<h2>Outbound network connections</h2>
+<p>The app connects to the following public services to fetch live prices and exchange rates:</p>
+<ul>
+<li>CoinGecko: for cryptocurrency prices. Only the coin ID (e.g. &quot;bitcoin&quot;) is sent, with the currency fixed to New Taiwan Dollars (TWD). No transaction or amount data is ever included.</li>
+<li>The Taiwan Stock Exchange (TWSE) website's quote lookup feature: for stock prices. Only the stock code is sent, and likewise no transaction or amount data is included.</li>
+<li>Exchange rates (for &quot;Tools › Currency&quot; and the currency conversion in &quot;Split&quot;): downloaded from cdn.jsdelivr.net and currency-api.pages.dev (two mirrors of the same open-source rate table), falling back to open.er-api.com. The whole public rate table is downloaded; the request contains only a fixed URL and none of your transactions, amounts or split data. The app only connects when you open the Currency or Split view in the Tools tab.</li>
+</ul>
+<p>These connections are purely for looking up public market prices and exchange rates and never transmit any information about you personally or about your finances.</p>
+<h2>Accounts and cloud sync</h2>
+<p>This app does not require sign-up, and the developer runs no account system or server for it. You are only asked to sign in to your own Google account if you tap &quot;Sign in to Google to turn on cloud backup&quot; (see the next section).</p>
+<h2>Cloud backup (Google Drive)</h2>
+<p>This is a free, optional feature, currently available on Android only, and it is only turned on when you tap &quot;Sign in to Google to turn on cloud backup&quot; in Settings; if you do not sign in, the app never connects. Once enabled, your backup files (which contain the records and settings you entered) are uploaded to a hidden, app-only folder in your own Google Drive. Only this app can access that folder — you cannot see it on the Drive website, and other apps cannot touch it.</p>
+<p>The app asks for just this one permission (drive.appdata, access to its own private folder) and never reads, changes or deletes any other file in your Drive. None of this data is sent to the developer's server, and the developer cannot see your backups. The cloud keeps at most the latest 5 backups. While you are signed in, a copy is uploaded each time the weekly automatic backup succeeds, and a copy is also uploaded whenever you tap &quot;Back up now&quot;; &quot;pre-restore&quot; backups are never uploaded.</p>
+<p>To delete your cloud backups, tap &quot;Delete all cloud backups&quot; in Settings, or open Google Drive &quot;Settings › Manage apps&quot;, find this app and choose to delete its hidden app data. &quot;Sign out&quot; in the app only clears the sign-in on your phone and does not delete the backups in the cloud.</p>
+<h2>Analytics and tracking</h2>
+<p>This app has no analytics, usage-tracking or crash-reporting packages installed, and the developer does not collect or receive any usage data. Ads are provided by Google AdMob, which uses your phone's advertising ID; see the &quot;Advertising&quot; section below.</p>
+<h2>Advertising</h2>
+<p>Only the Android version shows ads. This app shows ads through Google AdMob, including a full-screen ad when the app is opened and banner ads on some screens. The full-screen ad can appear only when you reopen the app and certain conditions are met (for example, enough time has passed since the last ad). No ad is shown when you enter through the home-screen quick-entry widget, by tapping a notification, or while the lock screen is displayed.</p>
+<p>To serve and measure ads, Google AdMob may use your phone's advertising ID, device information and approximate network location. This is handled by Google under its own privacy policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> . You can reset or delete your advertising ID, or opt out of personalized ads, at any time in your phone's Settings › Google › Ads.</p>
+<p>The bookkeeping data you enter (transactions, accounts, assets, etc.) is never given to advertisers or Google AdMob, and ads cannot read it.</p>
+<h2>Membership subscription</h2>
+<p>This app offers a paid membership subscription (currently Android only). Payment, renewal and refunds are all handled by Google Play, and the developer never receives your credit card or payment details. Your subscription status is verified through a third-party service, RevenueCat: RevenueCat receives a randomly generated user ID that the app creates and that cannot identify you, together with your Google Play purchase records (plan, purchase time and expiry time), which it uses to determine whether you are a member. It never receives any of your bookkeeping or financial data. Like any network connection, the RevenueCat SDK may also receive technical information such as your device model, OS version, app version and IP address. RevenueCat handles this data under its own privacy policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a> .</p>
+<h2>Biometrics</h2>
+<p>If you enable &quot;Biometric Lock,&quot; fingerprint or face recognition is handled entirely by your phone's operating system. The app only receives a &quot;success&quot; or &quot;failure&quot; result and never accesses, obtains, or stores any of your fingerprint or face data.</p>
+<h2>Notifications</h2>
+<p>If you turn on &quot;Budget Alerts,&quot; &quot;Due-Date Reminders,&quot; or &quot;Daily Transaction Reminder&quot; in Settings, the app asks your phone for notification permission the first time you do. You may decline, and the rest of the app keeps working. These are local notifications: the app works out the timing and wording on your phone and hands them to the operating system to schedule, with no server involved and none of your data leaving your phone. A notification may contain a category name, an item name, and an amount (no amount is included while &quot;Hide amounts&quot; is on), and may appear on your lock screen. You can switch each reminder off in the app at any time, or turn off the app's notifications in your phone's system settings.</p>
+<h2>Data export</h2>
+<p>You can manually export a backup file from the Settings screen with &quot;Export backup file&quot;. Where that file goes afterward (e.g. cloud storage, emailing it to yourself, sending it to someone else) is entirely up to you, via your system's share sheet. The developer never receives this file. Members can also export their transaction records as a CSV file with &quot;Export CSV&quot;. Likewise, you decide where it goes through the share sheet, and the developer never receives it.</p>
+<h2>Automatic backups</h2>
+<p>When you open the app, it automatically saves a backup of your data every 7 days, and it also saves a copy of your current data before you restore a backup with &quot;Restore&quot;. When you tap &quot;Back up now&quot;, a manual backup is also saved on your phone (up to 2 are kept). These automatic backup files stay in the app's private storage inside your phone. They are never sent to the developer or any server, and they are not encrypted: they contain your records (which may include amounts, account names and so on). Other apps normally cannot read them, but they could be seen if the phone is rooted or the whole device is backed up. Automatic backup files you share with the &quot;Export &amp; share&quot; button on the &quot;Restore&quot; screen, and files you export manually, are kept and sent wherever you choose, so please keep them safe. Whether &quot;Reset App&quot; also deletes these automatic backups is up to you, using the checkbox in its confirmation window.</p>
+<h2>Data deletion</h2>
+<p>Deleting this app, or using &quot;Reset App&quot; in Settings, erases all data stored on your phone (automatic backup files are removed when the app is deleted; when you use &quot;Reset App&quot;, the confirmation window has an &quot;Also delete automatic backups&quot; checkbox that is unchecked by default — if you leave it unchecked the automatic backups are kept so you can get your data back, and if you check it the weekly backups and pre-restore backups are deleted too). Any system backup that already exists in your Google account or iCloud is kept according to that system's own rules, and you can manage or delete it yourself in your phone or account settings.</p>
+<h2>Children</h2>
+<p>This app is not designed for children under 13, and it does not knowingly collect data from children.</p>
+<h2>Changes to this policy</h2>
+<p>If this policy is updated, the new version will be published together with an app update and the web version (<a href="https://pilebyte.github.io/budget/privacy/en/">https://pilebyte.github.io/budget/privacy/en/</a>) will be updated at the same time, with the last-updated date shown at the bottom of this document.</p>
+<h2>Contact</h2>
+<p>If you have any questions, feel free to email <a href="mailto:pilebyte.studio@gmail.com">pilebyte.studio@gmail.com</a>.</p>
+</main>
+<footer class="page-footer">
+<p>Last updated: 2026-11-08</p>
+<p>Pilebyte Studio</p>
+<p><a href="../../../">Home</a></p>
+</footer>
+</body>
+</html>

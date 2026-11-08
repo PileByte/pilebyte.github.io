@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>隱私權政策｜記個帳</title>
+<meta name="description" content="記個帳 隱私權政策">
+<link rel="canonical" href="https://pilebyte.github.io/budget/privacy/">
+<link rel="alternate" hreflang="zh-Hant" href="https://pilebyte.github.io/budget/privacy/">
+<link rel="alternate" hreflang="en" href="https://pilebyte.github.io/budget/privacy/en/">
+<link rel="alternate" hreflang="ja" href="https://pilebyte.github.io/budget/privacy/ja/">
+<link rel="alternate" hreflang="x-default" href="https://pilebyte.github.io/budget/privacy/">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<header class="page-header">
+<nav class="lang-switch" aria-label="Language">
+<span aria-current="page">繁體中文</span>
+<a href="https://pilebyte.github.io/budget/privacy/en/" hreflang="en" lang="en">English</a>
+<a href="https://pilebyte.github.io/budget/privacy/ja/" hreflang="ja" lang="ja">日本語</a>
+</nav>
+<p class="app-name">記個帳</p>
+<h1>隱私權政策</h1>
+</header>
+<main class="card">
+<p>本政策說明「記個帳」這個App如何處理你的資料，開發者是 Pilebyte Studio。</p>
+<h2>資料存在哪裡</h2>
+<p>你記的每一筆帳、銀行帳戶、股票、加密貨幣、貸款等資料，全部只存在你的手機本機（裝置上的App儲存空間），不會上傳到開發者的任何伺服器。開發者沒有管道、也不會取得你的任何記帳或財務資料。</p>
+<p>不過，Android系統可能依你手機的備份設定，把這個App的資料備份到「你自己的Google帳戶」，這是由Android系統與你的Google帳戶處理，開發者無法取得這份備份。系統備份的時機由手機自行決定（通常在充電、連上Wi-Fi且閒置時），不是即時備份；更換手機或重新安裝App時可能會自動還原，但不保證一定成功，建議仍定期使用「匯出備份檔」功能備份。你可以在手機的系統設定中關閉Google備份。</p>
+<p>如果你是iPhone使用者，且開啟了整機的iCloud備份，系統也可能依iOS的設定一併備份這個App的資料，這是由手機系統與你的Apple帳戶處理，開發者同樣無法取得。</p>
+<h2>對外連線</h2>
+<p>這個App會連到以下公開服務查詢即時報價與匯率：</p>
+<ul>
+<li>CoinGecko：查詢加密貨幣價格，只會送出幣種代號（例如bitcoin），並指定以新台幣計價，不會附帶你的任何記帳或金額資料。</li>
+<li>臺灣證券交易所（TWSE）網站的報價查詢功能：查詢股票價格，只會送出股票代號，同樣不會附帶任何記帳或金額資料。</li>
+<li>匯率資料（用於「工具 › 匯率換算」與「分帳」的外幣換算）：從 cdn.jsdelivr.net、currency-api.pages.dev（兩者為同一份開源匯率資料的鏡像），失敗時改用 open.er-api.com，下載整份公開匯率表；請求內容只有固定的網址，不含你的任何記帳、金額或分帳資料。只有打開「工具」分頁的匯率換算／分帳畫面時才會連線。</li>
+</ul>
+<p>這些連線純粹是查詢公開的市場價格與匯率，不會傳送任何跟你個人或財務狀況有關的資訊。</p>
+<h2>帳號與雲端同步</h2>
+<p>這個App不需要註冊，也沒有開發者的帳號系統或伺服器。只有在你主動按下「登入 Google，開啟雲端備份」時，才會請你登入自己的Google帳戶（見下一節）。</p>
+<h2>雲端備份（Google雲端硬碟）</h2>
+<p>這是免費的選用功能，目前只有Android版提供，而且要你自己在設定頁按下「登入 Google，開啟雲端備份」才會啟用；不登入就完全不會連線。啟用後，備份檔（內容就是你記的帳與設定）會上傳到「你自己的Google雲端硬碟」裡這個App專用的隱藏資料夾，只有這個App能存取，你在雲端硬碟網頁上看不到，其他App也碰不到。</p>
+<p>App只要求這一項權限（drive.appdata，存取自己的專用資料夾），不會讀取、修改或刪除你雲端硬碟裡的其他任何檔案。這些資料不會傳送到開發者的伺服器，開發者也無法看到你的備份。雲端上最多保留最新5份。登入後，每週自動備份成功時會順便上傳一份，你按「立即備份」時也會手動上傳；「還原前」備份不會上傳。</p>
+<p>要刪除雲端備份，可以在設定頁按「刪除所有雲端備份」，或到Google雲端硬碟的「設定 › 管理應用程式」找到本App，選擇刪除隱藏的應用程式資料。在App裡「登出」只會清除手機上的登入狀態，不會刪除雲端上的備份。</p>
+<h2>分析與追蹤</h2>
+<p>這個App沒有安裝任何數據分析、使用行為追蹤或當機回報的套件，開發者不會收集或回傳你的使用狀況。廣告由 Google AdMob 提供，會使用手機的廣告識別碼，詳見下方「廣告」一節。</p>
+<h2>廣告</h2>
+<p>目前只有Android版會顯示廣告。本 App 透過 Google AdMob 顯示廣告，包括開啟 App 時的全螢幕廣告，以及部分頁面的橫幅廣告。全螢幕廣告只會在重新開啟App、且符合條件時（例如距離上次顯示廣告已超過一段時間）出現。從桌面小工具快速記帳、點通知進入，或在解鎖畫面時，不會顯示廣告。</p>
+<p>為了投放與衡量廣告，Google AdMob可能會使用你手機的廣告識別碼（Advertising ID）、裝置資訊與大致的網路位置等資料。這是由Google依其隱私權政策處理，詳見 <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> 。你可以隨時到手機的「設定 › Google › 廣告」重設或刪除廣告識別碼，或選擇停用個人化廣告。</p>
+<p>你記的帳、帳戶、資產等記帳資料不會提供給廣告商或Google AdMob，廣告也讀不到這些資料。</p>
+<h2>會員訂閱</h2>
+<p>這個App提供付費會員訂閱（目前只有Android版）。付款、續訂與退款都由 Google Play 處理，開發者不會取得你的信用卡或付款資料。訂閱狀態透過第三方服務 RevenueCat 確認：RevenueCat 會收到一組由App隨機產生、無法辨識你身分的使用者代號，以及你在 Google Play 的購買紀錄（方案、購買與到期時間），用來判斷你是否為會員；不會收到你的任何記帳或財務資料。另外，和一般網路連線一樣，RevenueCat 的套件可能會收到裝置型號、作業系統版本、App 版本與 IP 位址等技術資訊。RevenueCat 依其隱私權政策處理這些資料，詳見 <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a> 。</p>
+<h2>生物辨識</h2>
+<p>如果你開啟「生物辨識鎖定」，指紋或臉部辨識完全由手機作業系統處理，這個App只會收到「驗證成功」或「驗證失敗」的結果，不會接觸、取得或儲存你的任何指紋或臉部資料。</p>
+<h2>通知</h2>
+<p>如果你在設定裡開啟「預算提醒」「扣款提醒」或「每日記帳提醒」，App 會在你第一次開啟時向系統要求通知權限，你可以拒絕，拒絕後不影響其他功能。這些都是「本機通知」：提醒的時間與內容由 App 在你的手機上自行計算並交給系統排程，不經過任何伺服器，也不會把你的資料送出手機。通知內容可能包含分類名稱、項目名稱與金額（開啟「隱藏金額」時不含金額），並可能顯示在鎖定畫面上。你可以隨時在 App 設定關閉各項提醒，或到手機的系統設定關閉本 App 的通知。</p>
+<h2>資料匯出</h2>
+<p>你可以在設定頁按「匯出備份檔」手動匯出備份檔案；匯出後要傳到哪裡（例如雲端硬碟、傳給自己的信箱、傳給別人），完全由你自己在系統的分享選單裡決定，開發者不會收到這份檔案。會員也可以用「匯出 CSV」把記帳紀錄匯出成 CSV 檔，一樣由你在系統的分享選單決定要傳到哪裡，開發者不會收到這份檔案。</p>
+<h2>自動備份</h2>
+<p>這個App會在你開啟時，每隔7天自動把你的資料備份一份，另外在你按「還原」要還原備份前也會先備份一份目前的資料。你按「立即備份」時，也會在手機裡另存一份手動備份（最多保留2份）。這些自動備份檔只存在你手機裡這個App的內部儲存空間，不會傳給開發者或任何伺服器，也沒有加密，內容就是你記的帳（可能包含金額、帳戶名稱等）。其他App通常讀不到，但若手機被取得最高權限（例如root）或整機被備份，檔案內容就可能被看到。你在「還原」畫面按「匯出分享」匯出的自動備份檔，或手動匯出的檔案，保管與傳送都由你自己決定，請自行留意保管安全。「重置APP」時是否一併刪除這些自動備份，由你在確認視窗自行勾選決定。</p>
+<h2>資料刪除</h2>
+<p>刪除這個App，或在設定頁執行「重置APP」，會清除手機上存的所有資料（自動備份檔會在刪除App時一併清除；執行「重置APP」時，確認視窗有「同時刪除自動備份」的勾選，預設不勾——不勾就保留自動備份，以便你找回資料，勾選則會連同每週備份與還原前備份一起刪除）。至於已經存在你的Google帳戶或iCloud中的系統備份，則依各自系統的規則保留，你可以在手機或帳戶設定中自行管理、刪除。</p>
+<h2>兒童</h2>
+<p>這個App不是為13歲以下兒童設計，也不會蓄意收集兒童的資料。</p>
+<h2>政策變更</h2>
+<p>如果這份政策有更新，會隨App更新一併發布新版本，並同步更新網頁版（<a href="https://pilebyte.github.io/budget/privacy/">https://pilebyte.github.io/budget/privacy/</a>），最後更新日期標示在這份文件最下方。</p>
+<h2>聯絡方式</h2>
+<p>有任何問題，歡迎寄信到 <a href="mailto:pilebyte.studio@gmail.com">pilebyte.studio@gmail.com</a>。</p>
+</main>
+<footer class="page-footer">
+<p>最後更新：2026-11-08</p>
+<p>Pilebyte Studio</p>
+<p><a href="../../">回首頁</a></p>
+</footer>
+</body>
+</html>
