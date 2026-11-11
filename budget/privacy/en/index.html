@@ -32,7 +32,7 @@
 <p>The app connects to the following public services to fetch live prices and exchange rates:</p>
 <ul>
 <li>CoinGecko: for cryptocurrency prices. Only the coin ID (e.g. &quot;bitcoin&quot;) is sent, with the currency fixed to New Taiwan Dollars (TWD). No transaction or amount data is ever included.</li>
-<li>The Taiwan Stock Exchange (TWSE) website's quote lookup feature: for stock prices. Only the stock code is sent, and likewise no transaction or amount data is included.</li>
+<li>Open data from the Taiwan Stock Exchange (openapi.twse.com.tw) and the Taipei Exchange (www.tpex.org.tw): the whole table of listed and OTC stock (incl. ETF) closing prices is downloaded at most once a day. The request is a fixed URL only; the stock codes you hold or follow are not sent, and no transaction or amount data is included.</li>
 <li>Exchange rates (for &quot;Tools › Currency&quot; and the currency conversion in &quot;Split&quot;): downloaded from cdn.jsdelivr.net and currency-api.pages.dev (two mirrors of the same open-source rate table), falling back to open.er-api.com. The whole public rate table is downloaded; the request contains only a fixed URL and none of your transactions, amounts or split data. The app only connects when you open the Currency or Split view in the Tools tab.</li>
 </ul>
 <p>These connections are purely for looking up public market prices and exchange rates and never transmit any information about you personally or about your finances.</p>
